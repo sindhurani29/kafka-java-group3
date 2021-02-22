@@ -2,8 +2,8 @@
 
 
 ## Team Lead
-Sindhu Rani Goli
+- Sindhu Rani Goli-[Github Profile](https://github.com/sindhurani29)
 
 ## Team Memebers
-* [Naga Anshitha Velagapudi](https://github.com/anshithavelagapudi)
+* Naga Anshitha Velagapudi-[Github Profile](https://github.com/anshithavelagapudi)
 * Tarun Sarpanjeri-[Github Profile](https://github.com/dexterstr)
