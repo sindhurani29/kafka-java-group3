@@ -7,3 +7,4 @@
 ## Team Memebers
 * Naga Anshitha Velagapudi-[Github Profile](https://github.com/anshithavelagapudi)
 * Tarun Sarpanjeri-[Github Profile](https://github.com/dexterstr)
+* Tejaswi Reddy Kandula-[Github Profile](https://github.com/Teju2404)
