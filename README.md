@@ -5,4 +5,5 @@
 Sindhu Rani Goli
 
 ## Team Memebers
-- [Naga Anshitha Velagapudi](https://github.com/anshithavelagapudi)
+* [Naga Anshitha Velagapudi](https://github.com/anshithavelagapudi)
+* Tarun Sarpanjeri-[Github Profile](https://github.com/dexterstr)
