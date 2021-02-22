@@ -5,3 +5,4 @@
 Sindhu Rani Goli
 
 ## Team Memebers
+- [Naga Anshitha Velagapudi](https://github.com/anshithavelagapudi)
