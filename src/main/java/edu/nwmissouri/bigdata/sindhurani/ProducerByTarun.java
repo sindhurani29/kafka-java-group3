@@ -36,10 +36,25 @@ public class ProducerByTarun{
 
 	   
    
-	    
+	    String message = removeVowels();
+	      ProducerRecord<String, String> record = new ProducerRecord<String, String>(topicName, message);
+	      producer.send(record);
+
+	  
+		String line = in.nextLine();
+	    while (!line.equals("exit")) {
+	      ProducerRecord<String, String> rec = new ProducerRecord<String, String>(topicName, line);
+	      producer.send(rec);
+	      line = in.nextLine();
+	    }
+
+	    in.close();
+	    producer.close();
+
+	  }
 	   
 	    
-	  }
+	  
 	  
 	  
 }
