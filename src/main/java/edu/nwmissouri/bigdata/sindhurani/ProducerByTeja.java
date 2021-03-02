@@ -90,7 +90,7 @@ public class ProducerByTeja{
 
    
 
-return "Vowels: " + vowels+ ", Consonants: " + consonants+", Digits: " + digits+", White spaces: " + spaces
+return "Vowels: " + vowels+ ", Consonants: " + consonants+", Digits: " + digits+", White spaces: " + spaces;
  
 	  }
 }
