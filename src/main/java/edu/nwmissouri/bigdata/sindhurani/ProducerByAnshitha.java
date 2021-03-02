@@ -34,10 +34,7 @@ public class ProducerByAnshitha{
 
 	    org.apache.kafka.clients.producer.Producer producer = new KafkaProducer(configProperties);
 
-	    // Make our own messages - create your custom logic here
-//	    String msg="finding vowels!";
-//	    ProducerRecord<String, String> record = new ProducerRecord<String, String>(topicName, msg);
-//	    producer.send(record);
+	   
 	    
 	   
 	      String message = findCharacters();
@@ -59,39 +56,12 @@ public class ProducerByAnshitha{
 	  
 	  private static String findCharacters(){
 		  //ASCII values ranges upto 256
-	int counter[] = new int[256]; 
-
-	String str="beginnersbook";
-	//String length
-	int len = str.length(); 
-
-	/* This array holds the occurrence of each char, For example
-	 * ASCII value of A is 65 so if A is found twice then 
-	 * counter[65] would have the value 2, here 65 is the ASCII value
-	 * of A
-	 */
-	for (int i = 0; i < len; i++) 
-		counter[str.charAt(i)]++; 
-
-	// We are creating another array with the size of String
-	char array[] = new char[str.length()]; 
-        for (int i = 0; i < len; i++) { 
-	   array[i] = str.charAt(i); 
-	   int flag = 0; 
-	   for (int j = 0; j <= i; j++) { 
-
-		/* If a char is found in String then set the flag 
-		 * so that we can print the occurrence
-		 */
-		if (str.charAt(i) == array[j])  
-			flag++;                 
-	   } 
-
-	   if (flag == 1)  
-return "Occurrence of char " + str.charAt(i)
-+ " in the String is:" + counter[str.charAt(i)];
- 
-	  }
-
+	
+		  String str = "line1\nline2\nline3\rline4";
+		 // System.out.println(str);
+		 
+		  int count = text.split("[\n|\r]").length;
+		  return "line count: "+count;
+	
 	}
 }
