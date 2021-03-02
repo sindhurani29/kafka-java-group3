@@ -34,7 +34,7 @@ public class ProducerByMohan {
         org.apache.kafka.clients.producer.Producer producer = new KafkaProducer(configProperties);
 
 
-
+       //Calling replceall method
         String message = replaceall();
         ProducerRecord < String, String > record = new ProducerRecord < String, String > (topicName, message);
         producer.send(record);
