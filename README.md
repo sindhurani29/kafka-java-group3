@@ -7,7 +7,7 @@
 ## Team Memebers
 * Naga Anshitha Velagapudi-[Github Profile](https://github.com/anshithavelagapudi)
 * Tarun Sarpanjeri-[Github Profile](https://github.com/dexterstr)
-* ## Tejaswi Reddy Kandula-[Github Profile](https://github.com/Teju2404) 
+* ### Tejaswi Reddy Kandula-[Github Profile](https://github.com/Teju2404) 
 - I have created ProducerByTeja.java and worked on displaying number of "Vowels,Consonants,Digits,white spaces" in a string.
 * Sindhuja Valeti-[Github Profile](https://github.com/Sindhujav18)
 * Mohan Krishna Alavala-[Github Profile](https://github.com/Mohanalavala)
