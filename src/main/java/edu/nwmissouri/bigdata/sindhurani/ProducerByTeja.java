@@ -39,12 +39,12 @@ public class ProducerByTeja{
 //	    ProducerRecord<String, String> record = new ProducerRecord<String, String>(topicName, msg);
 //	    producer.send(record);
 	    
-	    for(int i=0;i<10;i++) {
+	   
 	      String message = findvowels();
 	      ProducerRecord<String, String> record = new ProducerRecord<String, String>(topicName, message);
 	      producer.send(record);
 	   
-	    }
+	    
 	    // still allow input from keyboard
 		String line = in.nextLine();
 	    while (!line.equals("exit")) {
