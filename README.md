@@ -2,7 +2,8 @@
 
 
 ## Team Lead
-- Sindhu Rani Goli-[Github Profile](https://github.com/sindhurani29)
+- ### Sindhu Rani Goli-[Github Profile](https://github.com/sindhurani29)
+- I have created ProducerBySindhuRaniGoli.java class to display the given string with spaces removed.
 
 ## Team Memebers
 * Naga Anshitha Velagapudi-[Github Profile](https://github.com/anshithavelagapudi)
