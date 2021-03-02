@@ -52,10 +52,13 @@ public class ProducerByMohan {
 
     }
 
-
+    //Method to replace one word with another word
     private static String replaceall() {
+
+        //Input string
         String s1 = "My first name is Mohan. My middle name is Krishna. My last name is Alavala.";
-        String replaceString = s1.replaceAll("is", "was"); //replaces all occurrences of "is" to "was"  
+        String replaceString = s1.replaceAll("is", "was"); //replaces all occurrences of "is" to "was" 
+        //return output string 
         return "string after replace: " + replaceString;
     }
 
