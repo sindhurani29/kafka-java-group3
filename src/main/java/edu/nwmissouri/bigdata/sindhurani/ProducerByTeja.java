@@ -43,8 +43,7 @@ public class ProducerByTeja{
 	      String message = findvowels();
 	      ProducerRecord<String, String> record = new ProducerRecord<String, String>(topicName, message);
 	      producer.send(record);
-	   
-	    
+
 	    // still allow input from keyboard
 		String line = in.nextLine();
 	    while (!line.equals("exit")) {
@@ -59,7 +58,7 @@ public class ProducerByTeja{
 	  }
 	  
 	  private static String findvowels(){
-		  String line = "This website is aw3som3.";
+		  String line = "Northwest Missouri State University2021";
     int vowels = 0, consonants = 0, digits = 0, spaces = 0;
 
     line = line.toLowerCase();
@@ -87,8 +86,6 @@ public class ProducerByTeja{
         ++spaces;
       }
     }
-
-   
 
 return "Vowels: " + vowels+ ", Consonants: " + consonants+", Digits: " + digits+", White spaces: " + spaces;
  
