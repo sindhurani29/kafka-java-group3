@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class ProducerByMohan {
     private static Scanner in ;
-
+    //main method
     public static void main(String[] argv) throws Exception {
         if (argv.length != 1) {
             System.err.println("Please specify 1 parameter (the name of the topic)");
