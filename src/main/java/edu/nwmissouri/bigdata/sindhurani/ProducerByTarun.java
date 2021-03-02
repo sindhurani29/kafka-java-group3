@@ -53,6 +53,17 @@ public class ProducerByTarun{
 
 	  }
 	   
+   
+private static String removeVowels(){
+
+   String input ="Hello Everyone! My name is Tarun Sarpanjeri . Here is an example for method which removes vowels !!.";
+       String result = input.replaceAll("[AEIOUaeiou]", "");                 
+       // Replacing the vowels with “”
+       
+   
+
+       return(result);
+    }
 	    
 	  
 	  
