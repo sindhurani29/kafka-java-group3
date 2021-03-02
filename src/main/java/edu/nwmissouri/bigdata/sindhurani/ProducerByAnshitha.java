@@ -1,6 +1,7 @@
 public class Main {
   
 	public static void main(String[] args){
+		System.out.println("Printing the first 15 narcissistic decimal numbers");
 		for(long n = 0, ctr = 0; ctr < 15; n++){
 			if(is_narc_dec_num(n)){
 				System.out.print(n + " ");
