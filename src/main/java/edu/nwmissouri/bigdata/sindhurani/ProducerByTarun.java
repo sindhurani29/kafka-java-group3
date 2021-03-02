@@ -34,6 +34,11 @@ public class ProducerByTarun{
 
 	    org.apache.kafka.clients.producer.Producer producer = new KafkaProducer(configProperties);
 
+
+
+     // COmfiguring producer
+
+
 	   
    
 	    String message = removeVowels();
@@ -53,9 +58,9 @@ public class ProducerByTarun{
 
 	  }
 	   
-   
+   // this is the custom method i have created 
 private static String removeVowels(){
-
+// manual text is taken to remove vowels from it 
    String input ="Hello Everyone! My name is Tarun Sarpanjeri . Here is an example for method which removes vowels !!.";
        String result = input.replaceAll("[AEIOUaeiou]", "");                 
        // Replacing the vowels with “”
